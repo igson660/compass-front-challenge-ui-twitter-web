@@ -1,4 +1,5 @@
 .container-left__aside {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,7 +8,10 @@
 }
 
 .div__menu {
-  height: 400px;
+  box-sizing: border-box;
+  height: 450px;
+  width: 100%;
+  padding-left: 15%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,10 +47,37 @@
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
-  transition: .5s ease;
+  transition: 0.5s ease;
   color: #000000;
 }
 
 .link__menu:hover {
   color: #1da1f2;
+}
+.button__menu {
+  border: none;
+  background-color: #1da1f2;
+  margin-top: 15px;
+  width: 175px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 9999px;
+}
+
+.section__avatar {
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 15%;
+  padding-bottom: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.div__avatar {
+  display: flex;
+}
+.div-data__avatar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
 }
