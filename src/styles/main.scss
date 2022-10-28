@@ -1,0 +1,9 @@
+@import url(./abstract/reset/_resetCss.scss);
+@import url(./abstract/container-content/_main.scss);
+@import url(./abstract/footer/_footer.scss);
+
+.container__main {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
