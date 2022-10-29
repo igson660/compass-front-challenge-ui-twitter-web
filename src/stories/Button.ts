@@ -1,4 +1,5 @@
-import './button.css';
+// import './button.css';
+import "../styles/main.css";
 
 export interface ButtonProps {
   /**
@@ -12,7 +13,7 @@ export interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: "small" | "medium" | "large";
   /**
    * Button contents
    */
@@ -27,21 +28,23 @@ export interface ButtonProps {
  * Primary UI component for user interaction
  */
 export const createButton = ({
-  primary = false,
-  size = 'medium',
-  backgroundColor,
+  // primary = false,
+  // size = "medium",
+  // backgroundColor,
   label,
-  onClick,
+  // onClick,
 }: ButtonProps) => {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.innerText = label;
-  btn.addEventListener('click', onClick);
+  // const btn = document.createElement('button');
+  // btn.type = 'button';
+  // btn.innerText = label;
+  // btn.addEventListener('click', onClick);
 
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  btn.className = ['storybook-button', `storybook-button--${size}`, mode].join(' ');
+  // const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  // btn.className = ['storybook-button', `storybook-button--${size}`, mode].join(' ');
 
-  btn.style.backgroundColor = backgroundColor;
+  // btn.style.backgroundColor = backgroundColor;
+
+  const btn = `<button class="button__menu">${label}</button>`;
 
   return btn;
 };
