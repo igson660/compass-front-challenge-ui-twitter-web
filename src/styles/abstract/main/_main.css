@@ -96,4 +96,64 @@ textarea:focus {
 .section-post_main {
   margin-top: 20px;
   height: 720px;
+  padding: 10px;
+}
+
+.div-post__main {
+  display: flex;
+}
+
+.div-data-post__main {
+  display: flex;
+}
+
+.data-post {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #5b7083;
+  margin-right: 10px;
+}
+
+.img-post__main {
+  border-radius: 50%;
+}
+
+.h2-post__main {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.p-post__main {
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+.div-post-actions__main {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.actions__main {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.show-more {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 50px;
+  color: #1da1f2;
 }
