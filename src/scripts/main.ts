@@ -5,6 +5,9 @@ const selector = document.querySelector.bind(document);
 const textArea = selector("textarea") as HTMLTextAreaElement;
 const button = selector(".button-submit__main") as HTMLButtonElement;
 const section = selector(".section-post_main") as HTMLDivElement;
+const buttonTweet = selector(".button__menu") as HTMLButtonElement;
+
+buttonTweet.addEventListener("click", () => textArea.focus());
 
 button.addEventListener("click", () => {
   const content = `<div class="div-post__main">
