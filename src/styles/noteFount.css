@@ -1,0 +1,21 @@
+.container-main-note-found {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-note-found {
+  height: 10vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  height: 8vh;
+}
+
+span {
+  font-size: 40px;
+}

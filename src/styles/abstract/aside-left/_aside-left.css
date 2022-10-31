@@ -35,6 +35,12 @@
 .li__menu {
   display: flex;
   align-items: center;
+  transition: 0.3s ease;
+}
+
+.li__menu:hover .icon {
+  filter: invert(50%) sepia(80%) saturate(1630%) hue-rotate(180deg)
+    brightness(90%);
 }
 
 .icon {
@@ -47,11 +53,10 @@
   font-weight: 700;
   line-height: 22px;
   text-decoration: none;
-  transition: 0.5s ease;
   color: #000000;
 }
 
-.link__menu:hover {
+.li__menu:hover .link__menu {
   color: #1da1f2;
 }
 .button__menu {
