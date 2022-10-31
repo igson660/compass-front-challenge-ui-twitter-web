@@ -95,10 +95,15 @@ textarea:focus {
 
 .section-post_main {
   margin-top: 20px;
+  overflow-y: scroll;
+  box-sizing: border-box;
   height: 720px;
   padding: 10px;
 }
 
+.section-post_main::-webkit-scrollbar {
+  display: none;
+}
 .div-post__main {
   display: flex;
 }
@@ -156,4 +161,12 @@ textarea:focus {
   line-height: 16px;
   margin-left: 50px;
   color: #1da1f2;
+}
+
+.quantity {
+  margin-left: 10px;
+}
+
+.selected {
+  color: #f4245e;
 }
