@@ -1,26 +1,18 @@
-import { Story, Meta } from '@storybook/html';
-import { createHeader, HeaderProps } from './Header';
+import { Story, Meta } from "@storybook/html";
+import { HeaderProps, createHeader } from "./Header";
 
 export default {
-  title: 'Example/Header',
-  parameters: {
-    // More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
-    layout: 'fullscreen',
-  },
-  // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
+  title: "Components/Header",
   argTypes: {
-    onLogin: { action: 'onLogin' },
-    onLogout: { action: 'onLogout' },
-    onCreateAccount: { action: 'onCreateAccount' },
+    label: { control: "text" },
   },
 } as Meta;
 
-const Template: Story<HeaderProps> = (args) => createHeader(args);
-
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+const Template: Story<HeaderProps> = (args) => {
+  return createHeader(args);
 };
 
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
+export const Header =  Template.bind({});
+Header.args = {
+  label: "Home",
+};

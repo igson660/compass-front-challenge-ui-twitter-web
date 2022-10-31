@@ -6,5 +6,5 @@ module.exports = {
     "@storybook/addon-interactions",
   ],
   framework: "@storybook/html",
-  staticDirs: ["../public"],
+  staticDirs: ["../src"],
 };

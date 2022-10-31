@@ -101,3 +101,16 @@ hr {
   height: 30px;
   border-radius: 9999px;
 }
+
+.h6-aside__right {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.span-aside__right {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5b7083;
+}
