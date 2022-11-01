@@ -1,5 +1,8 @@
+@import url(../../colors.css);
+
+
 .container__footer {
-  background-color: #1da1f2;
+  background-color: var(--blue-main);
   display: flex;
   width: 100%;
   height: 8%;
@@ -12,7 +15,7 @@
   justify-content: center;
   line-height: 20px;
   padding-left: 20%;
-  color: #ffffff;
+  color: var(--white-main);
 }
 
 .title__foter {
@@ -43,14 +46,14 @@
 }
 
 .button-left__footer {
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: var(--white-main);
+  border: 1px solid var(--white-main);
   background-color: transparent;
   width: 80px;
 }
 
 .button-right__footer {
-  color: #394247;
-  border: 1px solid #cfb3b3;
+  color: var(--black-second);
+  border: 1px solid var(--white-second);
   width: 100px;
 }

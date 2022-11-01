@@ -1,17 +1,20 @@
+@import url(../../colors.css);
+
 .container-right__aside {
   padding: 10px 60px 30px 5px;
   width: 30%;
   box-sizing: border-box;
   position: relative;
+  overflow: hidden;
 }
 
 .input-seach-right__aside {
   width: 348px;
   height: 39px;
-  color: #5b7083;
+  color: var(--blue-second);
   font-size: 1.1rem;
   font-weight: 500;
-  background: #ebeef0;
+  background: var(--white-fourth);
   border-radius: 99999px;
   border: none;
   padding-left: 60px;
@@ -20,7 +23,7 @@
 
 .icon-search {
   position: absolute;
-  color: #5b7083;
+  color: var(--blue-second);
   left: 25px;
   top: 23px;
 }
@@ -32,19 +35,19 @@
 .div-right__main {
   width: 328px;
   padding: 10px;
-  background: #f7f9fa;
+  background: var(--white-third);
   border-radius: 16px;
 }
 
 .title-right__aside {
   font-weight: 700;
   font-size: 1.3rem;
-  color: #0f1419;
+  color: var(--black-main);
   letter-spacing: 0.014em;
 }
 
 hr {
-  border: 1px solid #f4f4f4;
+  border: 1px solid var(--white-main);
   margin-bottom: 3px;
 }
 
@@ -66,11 +69,11 @@ hr {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #5b7083;
+  color: var(--blue-second);
 }
 
 .p-tweet__aside {
-  color: #0f1419;
+  color: var(--black-main);
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
@@ -83,19 +86,19 @@ hr {
 .a-smore__aside,
 .strong__aside {
   text-decoration: none;
-  color: #1da1f2;
+  color: var(--blue-main);
 }
 
 .span-term__aside {
-  color: #5b7083;
+  color: var(--blue-second);
   font-weight: 500;
   font-size: 13px;
   width: 350px;
 }
 
 .button-follow__aside {
-  color: #1da1f2;
-  border: 1px solid #1da1f2;
+  color: var(--blue-main);
+  border: 1px solid var(--blue-main);
   background-color: transparent;
   width: 80px;
   height: 30px;
@@ -112,5 +115,5 @@ hr {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #5b7083;
+  color: var(--blue-second);
 }

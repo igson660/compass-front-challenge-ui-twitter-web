@@ -1,8 +1,8 @@
 .container__center {
   box-sizing: border-box;
   width: 50%;
-  border-right: 1px solid #f4f4f4;
-  border-left: 1px solid #f4f4f4;
+  border-right: 1px solid var(--white-main);
+  border-left: 1px solid var(--white-main);
   margin-right: 50px;
   padding-top: 10px;
   padding-left: 10px;
@@ -27,7 +27,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 23px;
-  color: #0f1419;
+  color: var(--black-main);
 }
 
 .container-post__main {
@@ -46,7 +46,7 @@ textarea {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #5b7083;
+  color: var(--blue-second);
   padding-left: 10px;
 }
 
@@ -76,21 +76,25 @@ textarea:focus {
 .button-submit__main {
   width: 77px;
   height: 39px;
-  background-color: #1da1f2;
+  background-color: var(--blue-main);
   border: none;
   opacity: 0.5;
   border-radius: 9999px;
   font-weight: 700;
   font-size: 15px;
   line-height: 19px;
-  color: #ffffff;
+  color: var(--white-main);
+}
+
+.button-submit__main:hover {
+  opacity: 1;
 }
 
 .hr_main {
   height: 10px;
   width: 100%;
   left: 0px;
-  background-color: #f4f4f4;
+  background-color: var(--white-main);
   position: absolute;
 }
 
@@ -117,7 +121,7 @@ textarea:focus {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  color: #5b7083;
+  color: var(--blue-second);
   margin-right: 10px;
 }
 
@@ -161,7 +165,7 @@ textarea:focus {
   font-size: 13px;
   line-height: 16px;
   margin-left: 50px;
-  color: #1da1f2;
+  color: var(--blue-main);
 }
 
 .quantity {
@@ -169,5 +173,5 @@ textarea:focus {
 }
 
 .selected {
-  color: #f4245e;
+  color: var(--pink-main);
 }

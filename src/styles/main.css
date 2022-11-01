@@ -5,6 +5,7 @@
 @import url(./abstract/aside-right/_aside-right.css);
 
 .container__main {
+  font-family: "Popins", sans-serif;
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
